@@ -3,8 +3,8 @@ package DAY_22;
 public class starpattern {
      public static void main(String args[]) {
 
-        for(int i = 1; i <= 6; i++) {
-            for(int j = 1; j <= i; j++) {
+        for(int row = 1; row < 6; row++) {
+            for(int col = 1; col <= row; col++) {
                 System.out.print("*");
             }
             System.out.println();
