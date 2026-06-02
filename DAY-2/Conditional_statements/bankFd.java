@@ -1,11 +1,13 @@
 package Conditional_statements;
 
+
 import java.util.Scanner;
 
 public class bankFd {
      public static void main(String[] args) {
-        System.err.println("1.Withdrawl 2.Deposit 3.CurrentBalance 4. FD");
+        System.out.println("1. Withdrawal 2. Deposit 3. CurrentBalance 4. FD");
         int balance = 2000;
+        
         Scanner obj = new Scanner(System.in);
 
         int option = obj.nextInt();
@@ -17,7 +19,9 @@ public class bankFd {
 
                 if (balance > amt) {
                     balance -= amt;
-                    System.out.println(amt + " is debited from your acoount");
+                    System.out.println(amt + " is debited from your account");
+                } else {
+                    System.out.println("Insufficient balance");
                 }
                 break;
 
@@ -26,10 +30,10 @@ public class bankFd {
                 int amtToDeposit = obj.nextInt();
 
                 balance += amtToDeposit;
-
+                System.out.println("Deposited " + amtToDeposit + ". New balance: " + balance);
                 break;
             case 3:
-                System.out.println(balance);
+                System.out.println("Current balance: " + balance);
                 break;
             case 4:
                 System.out.println("Enter the time to deposit your money");
@@ -39,8 +43,9 @@ public class bankFd {
 
                 break;
             default:
-                System.out.println("Abe andha hai kyaaa!!!");
+                System.out.println("Invalid option");
                 break;
         }
+        obj.close();
     }
 }
