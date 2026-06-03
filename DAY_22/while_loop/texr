@@ -1,0 +1,5 @@
+e Loop हा एखादा कोड पुन्हा पुन्हा चालवण्यासाठी वापरला जातो, जोपर्यंत दिलेली अट (condition) खरी (true) असते.
+
+
+
+A while loop is used to repeat a block of code as long as a condition is true.
