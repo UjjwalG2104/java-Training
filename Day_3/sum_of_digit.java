@@ -13,3 +13,6 @@ public class sum_of_digit {
         System.out.println("Sum of digits = " + sum);
     }
 }
+
+
+
