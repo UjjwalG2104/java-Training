@@ -1,4 +1,4 @@
-package Day_3;
+package day_4;
 
 import java.util.Scanner;
 
@@ -51,4 +51,4 @@ public class Taxi {
         System.out.println("Taxi Fare = " + taxifare);
     }
 }
-}
+
