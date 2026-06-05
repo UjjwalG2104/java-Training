@@ -1,5 +1,5 @@
 package day_4;
-
+import java.util.Scanner;
 public class fooddiscountzomato {
 
     static double orderFood() {
