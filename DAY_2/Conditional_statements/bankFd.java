@@ -1,4 +1,4 @@
-package Conditional_statements;
+package DAY_2.Conditional_statements;
 
 
 import java.util.Scanner;

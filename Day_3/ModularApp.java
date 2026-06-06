@@ -11,7 +11,7 @@ public class ModularApp {
     }
 
     static int Withdraw(int balance, int amt) {
-        if (balance > amt) {4
+        if (balance > amt) {
             balance -= amt;
         }
         System.out.println("hehehe nikal gyepaise !!!");

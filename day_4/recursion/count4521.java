@@ -1,6 +1,6 @@
 package day_4.recursion;
 
-public class 4521count {
+public class count4521 {
     static int countDigits(int n) {
         if (n == 0) {
             return 0;

@@ -1,4 +1,7 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
-    "markdown.validate.enabled": true
+    "markdown.validate.enabled": true,
+    "java.project.sourcePaths": [
+        "."
+    ]
 }
