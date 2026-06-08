@@ -2,30 +2,33 @@ package Day6;
 
 public class insertion {
 
-        static void insertionSort(int arr[]) {
+    static void Isort(int arr[]) {
         for (int i = 1; i < arr.length; i++) {
-            int current = arr[i];
+            int key = arr[i];
             int j = i - 1;
 
-            while (j >= 0 && arr[j] > current) {
+            while (j >= 0 && arr[j] > key) {
                 arr[j + 1] = arr[j];
                 j--;
             }
 
-            arr[j + 1] = current;
+            arr[j + 1] = key;
         }
     }
-    
+
     public static void main(String[] args) {
-        int arr[] = {64, 25, 12, 22, 11};
+        int arr[] = { 8, 3, 5, 4, 6 };
 
-        insertionSort(arr);
+        for (int item : arr) {
+            System.out.print(" " + item + " ");
+        }
+        System.out.println();
 
-        System.out.println("Sorted Array:");
-        for (int num : arr) {
-            System.out.print(num + " ");
+        Isort(arr);
+
+        System.out.println();
+        for (int item : arr) {
+            System.out.print(" " + item + " ");
         }
     }
 }
-    
-
