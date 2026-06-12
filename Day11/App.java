@@ -8,7 +8,7 @@ public class App {
 
         RestrauntService order = new BurgerKing("Whooper Burger");
 
-        order.acceptOrder("Pankaj");
+        order.acceptOrder("Ujjwal");
 
         order.PrepareFood();
 
