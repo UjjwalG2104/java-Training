@@ -1,9 +1,8 @@
-package LearningCollection;
-
+package Day11.LearningCollections;
 
 import java.util.*;
 
-public class app {
+public class App {
     public static void main(String[] args) {
         List<String> students = new ArrayList<>();
 
@@ -41,7 +40,7 @@ public class app {
 
         System.out.println(students.size());
 
-        
+        // students.clear();
 
         System.out.println(students.isEmpty());
 
