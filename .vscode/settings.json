@@ -3,5 +3,6 @@
     "markdown.validate.enabled": true,
     "java.project.sourcePaths": [
         "."
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
 }
