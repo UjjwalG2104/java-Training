@@ -1,11 +1,7 @@
 package com.example.demo.entity;
 
-
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Entity
 @AllArgsConstructor
@@ -22,15 +18,15 @@ public class Customer {
     @Column(nullable = false)
     private String name;
 
-    @Column(unique = true)
+    @Column(nullable = false, unique = true)
     private String email;
 
     private String city;
 
     private int age;
 
-    private String BankUserName;
+    private String bankUserName;
 
-    private int password;
-
+    @Column(nullable = false)
+    private String password;
 }
